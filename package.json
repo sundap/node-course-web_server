@@ -2,14 +2,24 @@
   "name": "web-server2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.15.3",
     "hbs": "^4.0.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sundap/node-course-web_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sundap/node-course-web_server/issues"
+  },
+  "homepage": "https://github.com/sundap/node-course-web_server#readme"
 }
